@@ -1,0 +1,44 @@
+# VS Code-specific files
+.vscode/
+
+# JetBrains (PyCharm, IntelliJ) IDE-specific files
+.idea/
+
+# Ignore data directory
+data/
+
+# Conda environments and model checkpoints
+models/
+data/raw/
+
+# Editor-specific and OS-specific files
+*.iws
+*.iml
+*.log
+__pycache__/
+
+# Python bytecode
+*.pyc
+*.pyo
+
+# Jupyter Notebooks checkpoint files
+.ipynb_checkpoints/
+/data/eval/next_day_wildfire_spread_eval_00.tfrecord
+/data/eval/next_day_wildfire_spread_eval_01.tfrecord
+/data/test/next_day_wildfire_spread_test_00.tfrecord
+/data/test/next_day_wildfire_spread_test_01.tfrecord
+/data/train/next_day_wildfire_spread_train_00.tfrecord
+/data/train/next_day_wildfire_spread_train_01.tfrecord
+/data/train/next_day_wildfire_spread_train_02.tfrecord
+/data/train/next_day_wildfire_spread_train_03.tfrecord
+/data/train/next_day_wildfire_spread_train_04.tfrecord
+/data/train/next_day_wildfire_spread_train_05.tfrecord
+/data/train/next_day_wildfire_spread_train_06.tfrecord
+/data/train/next_day_wildfire_spread_train_07.tfrecord
+/data/train/next_day_wildfire_spread_train_08.tfrecord
+/data/train/next_day_wildfire_spread_train_09.tfrecord
+/data/train/next_day_wildfire_spread_train_10.tfrecord
+/data/train/next_day_wildfire_spread_train_11.tfrecord
+/data/train/next_day_wildfire_spread_train_12.tfrecord
+/data/train/next_day_wildfire_spread_train_13.tfrecord
+/data/train/next_day_wildfire_spread_train_14.tfrecord

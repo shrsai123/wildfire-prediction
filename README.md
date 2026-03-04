@@ -50,6 +50,25 @@ cd wildfire-spread-prediction
 pip install -r requirements.txt
 ```
 
+## Authorship
+
+This project was a collaboration between **Rishabh Gupta, Shreyas Sai Raman, and Zhen Wang**.
+
+**Shreyas Sai Raman** wrote the following:
+- `notebooks/logistic_regression_rnn_lstm.ipynb`
+
+**Rishabh Gupta** wrote the following:
+- `notebooks/random_forest_max_depth_15.ipynb`
+- `notebooks/random_forest_maxdepth_sweep.ipynb`
+
+**Zhen Wang** wrote the following:
+- `notebooks/convolutional_autoencoder.ipynb`
+- `notebooks/convolutional_autoencoder_batchsize.ipynb`
+
+**Shared across the team:**
+- `notebooks/data_exploration.ipynb`
+
+Classical model baselines use [scikit-learn](https://scikit-learn.org/). The Random Forest 3×3 neighborhood feature representation follows the approach described in Huot et al. (2022). All deep learning models are original PyTorch implementations.
 
 
 ## References
